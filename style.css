@@ -69,10 +69,10 @@ h3 {
 }
 
 #image1, #image2, #image3, #image4 {
-    object-fit: cover;
-    width: 1120px;
+    width: 100%;
+    height: auto;
     border-radius: 16px;
-    padding: 20px;
+    overflow: hidden;
 }
 
 #image1 {
